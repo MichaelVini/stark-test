@@ -5,7 +5,7 @@ import { configureStarkUser } from "./sdk.js";
 
   const subscriptions = await starkbank.invoicePullSubscription.create([
     {
-      amount: 100, // em centavos
+      amount: 100,
       displayDescription: "Teste Assinatura",
       referenceCode: "ref-12345",
       start: "2025-11-01",
@@ -14,11 +14,11 @@ import { configureStarkUser } from "./sdk.js";
         amount: 100
       },
       interval: "month", // day|week|month
-      pullMode: "automatic", // automatic|manual
+      pullMode: "manual", // automatic|manual
       pullRetryLimit: 3,
       name: "Cliente Teste",
       taxId: "01234567890",
-      type: "paymentAndOrQrcode" // qrcode|push|qrcodeAndPayment|paymentAndOrQrcode
+      type: "qrcodeAndPayment" // qrcode|push|qrcodeAndPayment|paymentAndOrQrcode
     }
   ]);
 
