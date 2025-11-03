@@ -25,6 +25,8 @@ STARK_WORKSPACE_ID=seu-workspace-id (opcional)
 - `list-subscriptions.js` - Listar assinaturas
 - `list-pull-requests.js` - Listar pull requests
 - `pull-request.js` - Gerenciar pull requests
+- `create-webhook.js`- Criação de webhooks
+- `list-webhooks.js` - Listagem de webhooks
 
 ## Uso
 
