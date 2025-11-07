@@ -8,7 +8,7 @@ import { configureStarkUser } from "./sdk.js";
       amount: 100,
       displayDescription: "Teste Assinatura",
       referenceCode: "ref-12345",
-      start: "2025-11-01",
+      start: "2025-11-20",
       end: "2026-12-01",
       data: {
         amount: 100
